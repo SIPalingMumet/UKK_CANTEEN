@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ukk_kantin_2/LandingPage.dart';
+import 'package:ukk_kantin_2/Login/USER/LandingPage.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});
@@ -14,7 +14,7 @@ class _SplashState extends State<Splash> {
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => const Landingpage()),
+        MaterialPageRoute(builder: (context) => const LandingPage()),
       );
     });
   }
@@ -22,18 +22,15 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.white,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              'E-CANTEEN',
-              style: TextStyle(
-                fontSize: 32,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
+            Image(
+              image: AssetImage('Images/splash.png'),
+              width: 200, 
+              height: 200,
             ),
             SizedBox(height: 20),
           ],
@@ -42,4 +39,5 @@ class _SplashState extends State<Splash> {
     );
   }
 }
+
 
