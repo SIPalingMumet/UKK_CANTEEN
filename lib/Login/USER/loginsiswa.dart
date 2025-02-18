@@ -100,7 +100,7 @@ class _LoginsisState extends State<Loginsis> {
                       children: [
                     const SizedBox(width: 25, ),
                     Padding(
-                      padding: const EdgeInsets.only(left: 20), // Geser ke dalam
+                      padding: const EdgeInsets.only(left: 20), 
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: TextButton(

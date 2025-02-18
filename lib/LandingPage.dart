@@ -65,7 +65,9 @@ class _LandingPageState extends State<LandingPage> {
                   ),
                   const SizedBox(height: 10),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      
+                    },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
                       side: const BorderSide(color: Colors.white),

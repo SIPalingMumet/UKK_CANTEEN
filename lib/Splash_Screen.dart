@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ukk_kantin_2/Login/USER/LandingPage.dart';
+import 'package:ukk_kantin_2/LandingPage.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});
