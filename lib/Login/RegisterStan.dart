@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 
-class RgeisStam extends StatefulWidget {
-  const RgeisStam({super.key});
+class Registerstan extends StatefulWidget {
+  const Registerstan({super.key});
 
   @override
-  State<RgeisStam> createState() => _RgeisStamState();
+  State<Registerstan> createState() => _RegisterstanState();
 }
 
-class _RgeisStamState extends State<RgeisStam> {
+class _RegisterstanState extends State<Registerstan> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Placeholder();
   }
 }

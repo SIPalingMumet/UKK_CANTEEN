@@ -66,7 +66,7 @@ class _RegistersiswaState extends State<Registersiswa> {
               const SizedBox(height: 20),
               Row(
                 children: [
-                  SizedBox(
+                  const SizedBox(
                     width: 50,
                   ),
                   ElevatedButton(
